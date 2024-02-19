@@ -109,6 +109,7 @@ const userName = document.getElementById('name');
 const cellNumber = document.getElementById('number');
 const submit = document.getElementById('submit');
 
+
 userName.addEventListener("keyup", (e)=> {
 
     const value = e.currentTarget.value;
@@ -134,8 +135,6 @@ cellNumber.addEventListener("keyup", (e)=> {
     }
 
 } );
-
-
 
 
 function next(){
